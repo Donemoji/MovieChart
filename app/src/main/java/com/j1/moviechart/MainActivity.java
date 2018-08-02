@@ -54,12 +54,13 @@ public class MainActivity extends AppCompatActivity {
         tv_date = findViewById(R.id.tv_date);
 
         listView = findViewById(R.id.listview);
-        //
+        //loyalty
 
 
 
         adapter = new MyAdapter(items, getLayoutInflater());
 
+        //loyalty
 
         listView.setAdapter(adapter);
 
